@@ -25,7 +25,7 @@
         </ul>
         <div class="result-area">
             <div>
-                コンピュータの手：「<span id="pc-hand">まだ選んでいません</span>」
+                コンピュータの手：「<span id="pc-hand">まだ選んでいません。</span>」
             </div>
             <div id="result" class="result">手を選んでください</div>
         </div>
@@ -45,7 +45,7 @@
 // - #gu ボタン: グーを選択
 // - #choki ボタン: チョキを選択  
 // - #pa ボタン: パーを選択
-// - #pc-hand: コンピュータの手を表示
+// - #pc-hand: コンピュータの手を表示ｓ
 // - #result: 勝敗結果を表示
 // 
 // ---------------------------------------------------------------
@@ -66,7 +66,7 @@ function getUserSelect(handId) {
     return 0;
 }
 
-// 勝敗判定
+// 勝敗判定2
 function judge(user, computer) {
     if (user === computer) return "あいこ";
     if (
