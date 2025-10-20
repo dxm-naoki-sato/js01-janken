@@ -5,7 +5,7 @@
     - じゃんけんができるアプリです
     
     ## ③アプリのデプロイURL
-    -https://github.com/dxm-naoki-sato/js01-janken.git
+    -https://dxm-naoki-sato.github.io/js01-janken/
     
     ## ④アプリのログイン用IDまたはPassword（ある場合）
     - ID: 今回なし
